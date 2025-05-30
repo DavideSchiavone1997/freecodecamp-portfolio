@@ -1,0 +1,54 @@
+
+
+
+
+HTML
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lego Landing Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header id="header">
+    <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/512px-LEGO_logo.svg.png" alt="Logo LEGO" />
+
+    <nav id="nav-bar">
+      <a class="nav-link" href="#section1">Caratteristiche</a>
+      <a class="nav-link" href="#section2">Prezzi</a>
+      <a class="nav-link" href="#section3">Contatti</a>
+    </nav>
+  </header>
+
+  <!-- Sezioni di destinazione -->
+  <section id="section1">
+    <h2>Caratteristiche</h2>
+    <p>Scopri i dettagli e le caratteristiche uniche dei nostri prodotti Lego.</p>
+  </section>
+
+  <section id="section2">
+    <h2>Prezzi</h2>
+    <p>Consulta la lista prezzi aggiornata e le offerte speciali.</p>
+  </section>
+
+  <section id="section3">
+    <h2>Contatti</h2>
+    <p>Compila il modulo per ricevere aggiornamenti via email.</p>
+  </section>
+
+  <!-- Video -->
+  <div>
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/atf1PHj8NxY" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <!-- Form -->
+  <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+    <input id="email" type="email" name="email" placeholder="Inserisci la tua email" required />
+    <input id="submit" type="submit" value="Iscriviti" />
+  </form>
+
+</body>
+</html>

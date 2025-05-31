@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+h1 {
+    position: fixed;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: "Bodoni Moda SC", serif;
+    color: #E1DA57;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: rgba(128, 128, 128, 0.7);
+    opacity: 0.9;
+    box-shadow: 5px 5px 5px gray;
+
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin-top: 50px;
+    margin-left: 5opx;
+    margin-right: 50px;
+    font-size: medium;
+    background-color: rgba(128, 128, 128, 0.7);
+    border-radius: 10px;
+}
+
+h2{
+    margin-top:50px ;
+    margin-left:50px;
+    margin-right: 50px;
+    font-family: "Bodoni Moda SC", serif;color: #E1DA57;
+    background-color: gray;
+    max-width: fit-content;
+    border-radius: 30px;
+}
+
+body{
+    background-image:url(https://images.thdstatic.com/productImages/3775e328-2d87-4a5d-be1a-c656e0674417/svn/roommates-wallpaper-rolls-rmk12437rl-64_600.jpg
+    ) ;
+}
+
+ul{
+    background-color: rgba(128, 128, 128, 0.7);
+    max-width: fit-content;
+    border-radius:30px
+}
+
+
+
+
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.col {
+    flex: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    min-width: 300px;
+}
+
+.col.image {
+
+    text-align: center;
+
+}
+
+img {
+    width: 600px;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
